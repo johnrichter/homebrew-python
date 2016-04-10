@@ -2,14 +2,8 @@ class Python3 < Formula
   desc "Interpreted, interactive, object-oriented programming language"
   homepage "https://www.python.org/"
   url "https://www.python.org/ftp/python/3.3.6/Python-3.3.6.tar.xz"
-  sha256 "c6d57c0c366d9060ab6c0cdf889ebf3d92711d466cc0119c441dbf2746f725c9"
-
-  bottle do
-    revision 2
-    sha256 "41179565238d894d6b36e7b43eae2f00e6d774b8bebad2f8bf7e04519f8ab2c7" => :el_capitan
-    sha256 "290b97611927bfb0b1b8ca7bd117ec14c895ec564d12f1e9847a1ad5a2401e85" => :yosemite
-    sha256 "597726c76865052c9797b8542495c58182b25cd7335ce63e551d9dfbdbc0e2d0" => :mavericks
-  end
+  sha256 "5226e4bf7a530c3ff2bcde0c94e0e09e59a8bcde0114fe0268bc925bdabb5d3f"
+  revision 2
 
   head "https://hg.python.org/cpython", :using => :hg
 
